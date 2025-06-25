@@ -366,6 +366,24 @@ body {
   position: relative;
   padding-block-end: 80px;
 }
+.logo img {
+  max-height: 100px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.logo {
+  max-width: 280px;
+}
+.header-top,
+.container,
+.logo {
+  overflow: visible; /* Prevents hidden content */
+  height: auto;
+  padding: 0;
+}
 
 .input-wrapper {
   flex: 2; /* already helps with horizontal space */
